@@ -9,3 +9,5 @@ Marketing Coordinator story
 Marketing Manager story
 
 Admin Story
+- As an administrator (who), I need to have an access to the user's control panel (what), so that I would be able to create, edit or remove accounts (why).
+- As an administrator (who), I need an ability to change permissions for roles (what), so that, for example, a student would not be able to access same things what a Manager or Coordinator can access.

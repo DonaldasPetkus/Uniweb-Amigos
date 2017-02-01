@@ -1,0 +1,15 @@
+I'm not sure if that's a good idea to write this here, because public can see this, but if we will decide it's not safe, I will change passwords.
+
+Here is the FTP access:
+
+Link - ftp://project4uni.com/ or if you use somethink like FileZilla, use server 79.98.24.7
+Username - uniweb1@project4uni.com
+Password - UniwebFTP123
+
+
+Here is SQL Access:
+
+Database:	vandenis_uniweb
+Host:		localhost
+Username:	vandenis_uniweb
+Password:	UniwebSQL123

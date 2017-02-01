@@ -1,13 +1,26 @@
 Guest story
-
+- As guest, I will need to have access to look at, to be able to view files from there set faculty that is set by admin
 Student story
 - As a Student, i need to be able to log in to my faculty to upload submissions
 - for personal security, ui want to be able to apply changes to my account, such as password.
-
+- As a student, I need to be able to accept the terms and conditions before entering the site and also when I am Uploading things to the
+  system. This is because the students will then be agreeing that what they submit is their own work.
+- As a student, I need to be able to upload my own high quality images, givng the students a chance to uplaod there own images to the
+  site, the ones that are related.
+- As a student, I need to be able to upload my own word files to the site. The reason for this is so they can upload articles for the
+  magazine.
 Marketing Coordinator story
-
+- As marketing coordinator, I need to be able to recieve emails when a contribution has been submitted then have a 14 day deadline to
+  comment on the contribution. This gives the coordnator control of the contributions and allows them to keep track of contributions.
 Marketing Manager story
-
+-As marketing manager, I will need to be able to view contribution files and then all the deadline passed files can be zipped and be able to be 
+ exported from the system. Why because this gives the marketing manager control of all the contributions new and old to see progress that is
+ being made.
+- As a marketing manager, I will need to be able to be able to oversee all processes for all faculties. This is so the marketing manager
+  is able to keep check on things.
 Admin Story
 - As an administrator (who), I need to have an access to the user's control panel (what), so that I would be able to create, edit or remove accounts (why).
 - As an administrator (who), I need an ability to change permissions for roles (what), so that, for example, a student would not be able to access same things what a Manager or Coordinator can access (why).
+All
+-As all accounts, the site will need to be user friendly and also to be suitable for all devices. Giving all the acccounts for the site
+ the chance to use the site on any of there devices.

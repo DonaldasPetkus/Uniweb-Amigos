@@ -9,9 +9,11 @@ Student story
   site, the ones that are related.
 - As a student, I need to be able to upload my own word files to the site. The reason for this is so they can upload articles for the
   magazine.
+- As a student, when I log in, I should get a prompt to change my password and add my email address.
 Marketing Coordinator story
 - As marketing coordinator, I need to be able to recieve emails when a contribution has been submitted then have a 14 day deadline to
   comment on the contribution. This gives the coordnator control of the contributions and allows them to keep track of contributions.
+-  As marketing coordinator, I need a system to show me how long out of the 14 days I have left and which contribution I have and havent done. 
 Marketing Manager story
 -As marketing manager, I will need to be able to view contribution files and then all the deadline passed files can be zipped and be able to be 
  exported from the system. Why because this gives the marketing manager control of all the contributions new and old to see progress that is

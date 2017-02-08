@@ -1,28 +1,61 @@
-Guest story
-- As guest, I will need to have access to look at, to be able to view files from there set faculty that is set by admin
-Student story
-- As a Student, i need to be able to log in to my faculty to upload submissions
-- for personal security, ui want to be able to apply changes to my account, such as password.
-- As a student, I need to be able to accept the terms and conditions before entering the site and also when I am Uploading things to the
-  system. This is because the students will then be agreeing that what they submit is their own work.
-- As a student, I need to be able to upload my own high quality images, givng the students a chance to uplaod there own images to the
-  site, the ones that are related.
-- As a student, I need to be able to upload my own word files to the site. The reason for this is so they can upload articles for the
-  magazine.
-- As a student, when I log in, I should get a prompt to change my password and add my email address.
-Marketing Coordinator story
-- As marketing coordinator, I need to be able to recieve emails when a contribution has been submitted then have a 14 day deadline to
-  comment on the contribution. This gives the coordnator control of the contributions and allows them to keep track of contributions.
--  As marketing coordinator, I need a system to show me how long out of the 14 days I have left and which contribution I have and havent done. 
-Marketing Manager story
--As marketing manager, I will need to be able to view contribution files and then all the deadline passed files can be zipped and be able to be 
- exported from the system. Why because this gives the marketing manager control of all the contributions new and old to see progress that is
- being made.
-- As a marketing manager, I will need to be able to be able to oversee all processes for all faculties. This is so the marketing manager
-  is able to keep check on things.
-Admin Story
-- As an administrator (who), I need to have an access to the user's control panel (what), so that I would be able to create, edit or remove accounts (why).
-- As an administrator (who), I need an ability to change permissions for roles (what), so that, for example, a student would not be able to access same things what a Manager or Coordinator can access (why).
-All
--As all accounts, the site will need to be user friendly and also to be suitable for all devices. Giving all the acccounts for the site
- the chance to use the site on any of there devices.
+If you will be adding new lines, please add them at the back of each role. In such way we will clearly see new lines. Don’t put new lines in the middle, between already existing lines.
+
+As Guest,
+-	I want to have access to selected articles, so I could read them. 
+-	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet. 
+
+As Student,
+-	I need to be able to login as a Student, so I could access the dashboard on this web application, control my account and use my privileges. 
+-	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change. 
+-	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+-	I need to have access to “Upload Your Report” link, so I could send my article. 
+-	I need to have access to “Upload Images” link, so I could send high quality (and large size) images.
+-	I need to be able to submit more than one article or image, because I may have multiple articles or images.
+-	I need to be able to edit my articles before the closure date, because I may want to do changes before the final closure.
+-	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
+
+As Marketing Coordinator,
+-	I want students to agree to Terms and Conditions before they submit their articles, so they would be aware of the submission rules.
+-	I need to receive an email notification when a new contribution within my faculty was submitted, so I would become aware of it.
+-	I need to be able to login as a Marketing Coordinator, so I could access the dashboard on this web application, control my account and use my privileges.
+-	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
+-	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+-	I need to have an access to all submissions within my faculty, so I could manage them.
+-	I need to be able to manage submissions in order to select those for publication.
+-	I need to be able to leave a comment on submissions, so that students would know what needs to be edited on their submissions.
+-	I need all submissions to be separated and marked in 4 different ways, according to their importance, so I could focus on the most urgent submissions:
+    o	1. Submissions, which have already received my comment (e.g. Green colour).
+    o	2. Submissions, which have not received my comment yet, but are still within 14 days of the deadline (e.g. Yellow colour).
+    o	3.  Submissions, which have not received my comment yet and are already out of 14 days of the deadline (e.g. Red colour). 
+    o	4. Submissions, which have already received a comment and are selected for publication (e.g. Blue colour).
+-	I need to be able to filter all submissions by their importance mark, so I could filter out submissions, which have already received a comment or have been selected for publication.
+-	I want students to not be able to submit any new submissions after the closure date, so that they would not get mixed up with already submitted ones.
+-	I want students to be able to edit their submissions before the final closure date, so they could edit their submissions before the publication.
+-	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
+
+As Marketing Manager,
+-	I need to be able to login as a Marketing Manager, so I could access the dashboard on this web application, control my account and use my privileges.
+-	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
+-	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+-	I want Marketing Coordinators to see submissions only within their faculties, so they would not interact with other faculty’s submissions.
+-	I want to see all submissions from all faculties, so I could manage them.
+-	I need to see all submissions on the dashboard, which should be separated in 4 different ways, according to their current status, so I could deal with them accordingly:
+    o	1. Submissions, which have already received a comment by Marketing Coordinators (e.g. Green colour).
+    o	2. Submissions, which have not received a comment from Marketing Coordinators yet, but are still within 14 days of the deadline (e.g. Yellow colour).
+    o	3.  Submissions, which have not received a comment from Marketing Coordinators yet and are already out of 14 days of the deadline (e.g. Red colour). 
+    o	4. Submissions, which have already received a comment and are selected for publication (e.g. Blue colour).
+-	I need to be able to download all selected submissions in a single ZIP file, so I would have all submissions inside one file.
+-	I need to see statistics, so I could produce a report about:
+    o	Number of submissions within each Faculty for each academic year;
+    o	Percentage of submissions by each Faculty for any academic year;
+    o	Number of submissions within each Faculty for each academic year.
+-	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
+
+As Administrator,
+-	I need to be able to login as an Administrator, so I could access the dashboard on this web application, control my account and use my privileges. 
+-	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
+-	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+-	I need to have an access to the user's control panel, so that I would be able to create, edit or remove accounts. 
+-	I need to be able to change roles (Student, Marketing Coordinator, Marketing Manager or Administrator) for new accounts, so I could set different privileges for different users.
+-	I need access to the system data, so I could set closure dates for each academic year.
+-	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.

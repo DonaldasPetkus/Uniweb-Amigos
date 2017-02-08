@@ -1,18 +1,2 @@
-I'm not sure if that's a good idea to write this here, because public can see this, but if we will decide it's not safe, I will change passwords.
-
-Website link will be - www.project4uni.com/uniweb - (with slash+uniweb) currently empty obviously. Or we can buy another domain if you like, which will cost around 10 dollars. For example www.uniweb-amigos.com
-
-Here is the FTP access:
-
-Link - ftp://project4uni.com/ or if you use somethink like FileZilla, use server 79.98.24.7
-Username - uniweb1@project4uni.com
-Password - UniwebFTP123
-
-
-Here is SQL Access:
-
-Link - https://karosas.serveriai.lt/MyAdmin/
-Database:	vandenis_uniweb
-Host:		localhost
-Username:	vandenis_uniweb
-Password:	UniwebSQL123
+This has been removed. 
+For Ftp and MySql access check the "uniwebamigos.eu.zip" file.

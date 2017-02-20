@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+nav{
+    margin-top: 1%;
+    border-radius: 5px;
+    height: 40px;
+    width: 68%;
+    float: right;
+background-color:dodgerblue;
+    
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 11px 10px 0px;
+    
+    
+}
+nav ul li a{
+    color: #000000;
+    
+ 
+}
+
+
+
+#logo{
+	height: 100px;
+	width: 100px;
+}
+#signin{
+	float: right;
+
+}
+#banner{
+	height: 400px;
+	width: 1250px;
+}
+#article1{
+	
+}
+
+#article2{}

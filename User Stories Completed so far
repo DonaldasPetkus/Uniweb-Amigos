@@ -58,3 +58,9 @@ DONE -	I need to be able to change roles (Student, Marketing Coordinator, Market
 DONE -	I need access to the system data, so I could set closure dates for each academic year.
 DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
 
+
+Additional Requirements:
+
+As Administrator,
+-       I want every user to be reminded of the date and time they last logged in or welcome them if this is their first login for the security reasons;
+-       I need be able to see the report of which pages were most used, which users are most active, which browsers were used and other things, so I could monitor the system.

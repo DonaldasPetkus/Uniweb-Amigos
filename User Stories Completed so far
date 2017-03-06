@@ -1,1 +1,60 @@
+As Guest,
+DONE -	I want to have access to selected articles, so I could read them. 
+DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet. 
+
+As Student,
+DONE -	I need to be able to login as a Student, so I could access the dashboard on this web application, control my account and use my privileges. 
+DONE -	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change. 
+DONE -	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+DONE -	I need to have access to “Upload Your Report” link, so I could send my article. 
+DONE -	I need to have access to “Upload Images” link, so I could send high quality (and large size) images.
+DONE -	I need to be able to submit more than one article or image, because I may have multiple articles or images.
+DONE -	I need to be able to edit my articles before the closure date, because I may want to do changes before the final closure.
+DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
+
+As Marketing Coordinator,
+-	I want students to agree to Terms and Conditions before they submit their articles, so they would be aware of the submission rules.
+-	I need to receive an email notification when a new contribution within my faculty was submitted, so I would become aware of it.
+DONE -	I need to be able to login as a Marketing Coordinator, so I could access the dashboard on this web application, control my account and use my privileges.
+DONE -	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
+DONE -	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+DONE -	I need to have an access to all submissions within my faculty, so I could manage them.
+DONE -	I need to be able to manage submissions in order to select those for publication.
+-	I need to be able to leave a comment on submissions, so that students would know what needs to be edited on their submissions.
+-	I need all submissions to be separated and marked in 4 different ways, according to their importance, so I could focus on the most urgent submissions:
+    o	1. Submissions, which have already received my comment (e.g. Green colour).
+    o	2. Submissions, which have not received my comment yet, but are still within 14 days of the deadline (e.g. Yellow colour).
+    o	3.  Submissions, which have not received my comment yet and are already out of 14 days of the deadline (e.g. Red colour). 
+    o	4. Submissions, which have already received a comment and are selected for publication (e.g. Blue colour).
+-	I need to be able to filter all submissions by their importance mark, so I could filter out submissions, which have already received a comment or have been selected for publication.
+DONE -	I want students to not be able to submit any new submissions after the closure date, so that they would not get mixed up with already submitted ones.
+DONE -	I want students to be able to edit their submissions before the final closure date, so they could edit their submissions before the publication.
+DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
+
+As Marketing Manager,
+DONE -	I need to be able to login as a Marketing Manager, so I could access the dashboard on this web application, control my account and use my privileges.
+DONE -	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
+DONE -	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+DONE -	I want Marketing Coordinators to see submissions only within their faculties, so they would not interact with other faculty’s submissions.
+DONE -	I want to see all submissions from all faculties, so I could manage them.
+-	I need to see all submissions on the dashboard, which should be separated in 4 different ways, according to their current status, so I could deal with them accordingly:
+    o	1. Submissions, which have already received a comment by Marketing Coordinators (e.g. Green colour).
+    o	2. Submissions, which have not received a comment from Marketing Coordinators yet, but are still within 14 days of the deadline (e.g. Yellow colour).
+    o	3.  Submissions, which have not received a comment from Marketing Coordinators yet and are already out of 14 days of the deadline (e.g. Red colour). 
+    o	4. Submissions, which have already received a comment and are selected for publication (e.g. Blue colour).
+DONE -	I need to be able to download all selected submissions in a single ZIP file, so I would have all submissions inside one file.
+-	I need to see statistics, so I could produce a report about:
+    o	Number of submissions within each Faculty for each academic year;
+    o	Percentage of submissions by each Faculty for any academic year;
+    o	Number of submissions within each Faculty for each academic year.
+DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
+
+As Administrator,
+DONE -	I need to be able to login as an Administrator, so I could access the dashboard on this web application, control my account and use my privileges. 
+DONE -	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
+DONE -	I need to have a “Reset Password” link on the login form, which would allow me to reset my password in case I would forget it.
+DONE -	I need to have an access to the user's control panel, so that I would be able to create, edit or remove accounts. 
+DONE -	I need to be able to change roles (Student, Marketing Coordinator, Marketing Manager or Administrator) for new accounts, so I could set different privileges for different users.
+DONE -	I need access to the system data, so I could set closure dates for each academic year.
+DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
 

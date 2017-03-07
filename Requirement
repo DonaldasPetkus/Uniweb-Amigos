@@ -1,0 +1,106 @@
+Primary Functions list 
+
+LOGIN	
+REGISTER	
+ROLE	
+ENABLE	
+DISABLE
+CLOSE DATE	
+FINAL DATE	
+AGREE TERM CONDITIONS	
+COMMENT	
+BROWSE
+ELECT	
+ADD	
+VIEW	
+EDIT	
+UPDATE
+UPLOAD	
+DOWNLOAD	
+ZIP FILE	
+MAIL (SYSTEM)	
+TEXT (SYSTEM)
+FORUM
+FORUM ENROLEment	
+GRAPH STAT (by date, faculty, Upload, Updates, Forum, Logon)	
+Acknowledgement    (FACULTY 14 DAYS)	
+SEND   (Accept) or (resubmit) message, via Email, Text
+ENROL  (Enter into competition)	
+SUBMIT (Transfer to Guest comment)	
+SUBMIT (Transfer to Faculty)	
+SUBMIT (Transfer to Market Manager)	
+SUBMIT (Transfer to publisher)	
+DELETE		
+
+Administrator Function list
+LOGIN	
+VIEW	
+ROLES 
+BROWSE	
+ADD	
+EDIT
+UPDATE	
+CLOSING DATE	
+FINAL DATE
+UPLOAD	
+DOWNLOAD	
+ZIP FILE
+ENABLE	
+DISABLE	
+DELETE
+SELECT	
+EMAIL	
+FORUM
+TEXT (SYSTEM)	
+GRAPH STAT  (by date, facultplad, Updates, Forum, Logon)
+SUBMIT (Transfer to Guest comment)
+SUBMIT (Transfer to Faculty)	
+SUBMIT (Transfer to Market Manager)	
+SUBMIT (Transfer to publisher)
+
+Market Manager
+
+Logon	
+View (All accepted images of faculty)	
+Graph STAT  (by date, faculty, Upload, Updates, Forum, Logon)
+VIEW FORUM (comments)	
+Download  (Tick image file)	
+ZIP  (downloaded image files)
+SUBMIT (Transfer to publisher)		
+
+
+Marketing Coordinator
+
+Logon	
+View  (All student submission to this faculty)  	
+Acknowledgement (FACULTY 14 DAYS)
+Send (Accept) or (resubmit) message, via Email or Text  systems.	
+FORUM ENROLE (For faculty’s) 
+FORUM
+EDIT	
+UPDATE	
+SUBMIT  (Transfer to Market Manager)
+
+
+Students
+REGISTER (CONTACT DETAILS FACULTY  EMAIL  FORUM)	  
+LOGIN
+BROWSE
+ADD 	
+AGREE TERMS CONDITION 	
+UPLOAD
+UPDATE	
+VIEW	
+EMAIL
+FORUM	
+ENROL  (Enter into competition)	
+SUBMIT (Transfer to Faculty)
+
+
+Guest account
+LOGIN	
+VIEW 	
+SELECT
+COMMENT	
+SUBMIT (Transfer to Guest comment)	
+FORUM GUEST

@@ -1,4 +1,4 @@
-Primary Functions list 
+Function listPrimary Functions list 
 
 LOGIN	
 REGISTER	
@@ -8,7 +8,7 @@ DISABLE
 CLOSE DATE	
 FINAL DATE	
 AGREE TERM CONDITIONS	
-COMMENT	
+ COMMENT	
 BROWSE
 ELECT	
 ADD	
@@ -58,7 +58,7 @@ SUBMIT (Transfer to Faculty)
 SUBMIT (Transfer to Market Manager)	
 SUBMIT (Transfer to publisher)
 
-Market Manager
+Market Manager Function list
 
 Logon	
 View (All accepted images of faculty)	
@@ -69,7 +69,7 @@ ZIP  (downloaded image files)
 SUBMIT (Transfer to publisher)		
 
 
-Marketing Coordinator
+Marketing Coordinator Function list
 
 Logon	
 View  (All student submission to this faculty)  	
@@ -82,7 +82,8 @@ UPDATE
 SUBMIT  (Transfer to Market Manager)
 
 
-Students
+Students Function list
+
 REGISTER (CONTACT DETAILS FACULTY  EMAIL  FORUM)	  
 LOGIN
 BROWSE
@@ -97,7 +98,7 @@ ENROL  (Enter into competition to win Fibrecan spray to fit Tshirt (http://www.f
 SUBMIT (Transfer to Faculty)
 
 
-Guest account
+Guest account Function list
 LOGIN	
 VIEW 	
 SELECT

@@ -13,7 +13,7 @@ DONE -	I need to be able to edit my articles before the closure date, because I 
 DONE -	I need this web application to be responsive, so I could access it from all devices, including a mobile phone or a tablet.
 
 As Marketing Coordinator,
--	I want students to agree to Terms and Conditions before they submit their articles, so they would be aware of the submission rules.
+DONE -	I want students to agree to Terms and Conditions before they submit their articles, so they would be aware of the submission rules.
 -	I need to receive an email notification when a new contribution within my faculty was submitted, so I would become aware of it.
 DONE -	I need to be able to login as a Marketing Coordinator, so I could access the dashboard on this web application, control my account and use my privileges.
 DONE -	I need to be able to change my password and other details on the dashboard, such as address or a phone number, because this information may change.
@@ -63,4 +63,4 @@ Additional Requirements:
 
 As Administrator,
 -       I want every user to be reminded of the date and time they last logged in or welcome them if this is their first login for the security reasons;
--       I need be able to see the report of which pages were most used, which users are most active, which browsers were used and other things, so I could monitor the system.
+DONE -       I need be able to see the report of which pages were most used, which users are most active, which browsers were used and other things, so I could monitor the system.

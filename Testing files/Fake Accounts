@@ -1,42 +1,56 @@
 Email Access: https://pastas.serveriai.lt/
 Web Access: http://www.uniwebamigos.eu/wp-login.php
 
+Student 1 from Faculty 2:
 Email Username:	studentf1@uniwebamigos.eu
 Email Password:	studentfaculty1
 Web Username:   student001
 Web Password:   studentfaculty1
 
+Student 1 from Faculty 2:
 Email Username: studentf1-1@uniwebamigos.eu
 Email Password: studentfaculty1
 Web Username:	  student003
 Web Password: 	studentfaculty1
 
+Student 1 from Faculty 2:
 Email Username: studentf2@uniwebamigos.eu
 Email Password: studentfaculty2
 Web Username:	  student002
 Web Password: 	studentfaculty2
 
+Student 2 from Faculty 2:
 Email Username: studentf2-1@uniwebamigos.eu
 Email Password: studentfaculty2
 Web Username:	  student004
 Web Password: 	studentfaculty2
 
+Marketing Coordinator Faculty 1:
 Email Username: marketing-coordinator-1@uniwebamigos.eu
 Email Password: marketing-coordinator-1
 Web Username:	  marketingcoordinator001
 Web Password: 	coordinator
 
+Marketing Coordinator Faculty 2:
 Email Username: marketing-coordinator-2@uniwebamigos.eu
 Email Password: marketing-coordinator-2
 Web Username:	  marketingcoordinator002
 Web Password: 	coordinator
 
+Marketing Manager:
 Email Username: marketing-manager@uniwebamigos.eu
 Email Password: marketing-manager
 Web Username:	  marketing-manager001
 Web Password: 	manager
 
+Administrator:
 Email Username: admin@uniwebamigos.eu
 Email Password: uniweb-admin
 Web Username:	  uniwebadmin
 Web Password: 	uniwebadmin
+
+Subscriber:
+Email Username: subscriber@uniwebamigos.eu
+Email Password: subscribersubscriber
+Web Username:   subscriber
+Web Password:  	subscriber

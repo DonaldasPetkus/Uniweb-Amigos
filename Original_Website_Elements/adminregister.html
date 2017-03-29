@@ -1,0 +1,87 @@
+<?php
+session_start();
+if (isset($_SESSION['userSession'])!="") {
+ header("Location: home.php");
+}
+require_once 'dbconnect.php';//connects you to the database
+
+if(isset($_POST['btn-signup'])) {
+ 
+ $uname = strip_tags($_POST['username']);
+ $email = strip_tags($_POST['email']);
+ $upass = strip_tags($_POST['password']);
+ 
+ $userid = $DBcon->real_escape_string($uid);
+ $pass = $DBcon->real_escape_string($pass);
+ $role = $DBcon->real_escape_string($role);
+ $faculty = $conn->real_escape_string($fac);
+ $username = $conn->real_escape_string($uname);
+ $firstname = $conn->real_escape_string($fname);
+ $lastname = $conn->real_escape_string($lname);
+ $email =$conn->real_escape_string($email);
+ 
+ $hashed_password = password_hash($pass, PASSWORD_DEFAULT);
+ 
+ $check_email = $conn->query("SELECT email FROM tbl_users WHERE email='$email'");//this checks the emails to see if none have been created already from this email from my database
+ $count=$check_email->num_rows;
+ 
+ if ($count==0) {
+  
+  $query = "INSERT INTO users(id,role,faculty,username,firstname,lastname,email,password) VALUES('$uid','$role','$fac','$uname','$fname','$lname','$email')";// this inserts what has been entered into the form into the database allowing you to log in correctly
+
+  if ($conn->query($query)) {//this checks my query from my database before continuing
+   $msg = "<div class='alert alert-success'>
+      <span></span> &nbsp; successfully registered !
+     </div>";// this displays if you have successfully registered
+  }else {
+   $msg = "<div class='alert alert-danger'>
+      <span></span> &nbsp; error while registering !
+     </div>";// this displays if there is a error while messaging
+  }
+  
+ } else {
+  
+  
+  $msg = "<div class='alert alert-danger'>
+     <span></span> &nbsp; sorry email already taken !
+    </div>";// this checks the database to see whether the email you are entering with is new if not displays this
+   
+ }
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Registration</title>
+	<link rel="stylesheet" type="text/css" href="Template.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" id="admin">
+<h1>Admin Registration</h1>
+<?php
+  if (isset($msg)) {
+   echo $msg;
+  }
+  ?>
+<form>
+	UserID:<input type="text" name="ID"><br>
+	Password:<input type="text" name="Password"><br>
+	Role:<select name="Role">
+<option value=""></option>
+<option value="Admin">Admin</option>
+<option value="Staff">Staff</option>
+<option value="Student">Student</option>
+</select><br>
+	Faculty:<select name="Faculty">
+<option value=""></option>
+<option value="Maths">Maths</option>
+<option value="English">English</option>
+<option value="Science">Science</option>
+</select><br>
+	Username:<input type="text" name="Username"><br>
+	Firstname:<input type="text" name="Firstname"><br>
+	Lastname:<input type="text" name="Lastname"><br>
+	Email:<input type="text" name="Email"><br>
+	<input type="submit" name="btn-submit" placeholder="add user">
+</form></div>
+</body>
+</html>
